@@ -35,10 +35,19 @@ concat() {
     fi
     export COMMENT
 
-    cat $WARNING_FILE $(dir-files "$1") | envsubst > "build/$1"
+    target="build/$1"
+
+    if [ -f $target ]
+    then
+        mv $target "$target.$(date -Ihours).bak"
+    fi
+
+    cat $WARNING_FILE $(dir-files "$1") | envsubst > $target
 }
 
 ############################## Prepare ##################
+
+mkdir -p build
 
 for dir in $DIRECTORIES
 do

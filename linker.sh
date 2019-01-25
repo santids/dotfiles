@@ -33,7 +33,27 @@ do
 done
 
 # Backup file if already exists
-test -e "$2" && ( mv "$2" "$2.$(date -Idate).bak"; echo "$BACKUP_MSG $2")
+
+target="$(realpath build/$1)"
+
+if [ -L "$2" ]
+then
+    source="$(readlink $2)"
+    if [ $source != $target  ]
+    then
+        echo "Removing link $2 -> $source "
+        rm $2
+    else
+        echo "Link $2 already set :)"
+        exit 0
+    fi
+elif [ -f "$2" ]
+then
+    echo "$BACKUP_MSG $2"
+    mv "$2" "$2.$(date -Ihours).bak"
+fi
+
+# Make directory if needed
 
 destdir="$(dirname $2)"
 
@@ -44,5 +64,5 @@ then
 fi
 
 # Link new file
-echo "Linking file.. $1 to $2"
-ln -rs build/$1 $2
+echo "Linking file.. build/$1 to $2"
+ln -s  $2
