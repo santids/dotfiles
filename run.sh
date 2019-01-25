@@ -3,11 +3,20 @@
 ############################## Variables  ################
 
 DIRECTORIES=$(find . -mindepth 1 -maxdepth 1 -type d | sed  '/build/d; /\.git/d  ')
-FLAGS="arch gen"
 WARNING_FILE=warning.txt
 
-
 source .env
+
+OS_RELEASE="/etc/os-release"
+
+if [ -e $OS_RELEASE ]
+then
+    source $OS_RELEASE
+fi
+
+FLAGS="arch gen $ID"
+
+echo "Active Flags: $FLAGS"
 
 dir-files() {
     file="$1/$1"
