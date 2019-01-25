@@ -22,10 +22,8 @@ do
     then
         file="build/$1"
     fi
-    echo $file
     if [ "$file" != "$2" ]
     then
-        echo $file
         if [ !  -e $file ]
         then
             echo "$NOT_FOUND_MSG $file"
@@ -35,7 +33,16 @@ do
 done
 
 # Backup file if already exists
-test -e "$2" && ( mv "$2" "$2.$(date -Iminutes).bak"; echo "$BACKUP_MSG $2")
+test -e "$2" && ( mv "$2" "$2.$(date -Idate).bak"; echo "$BACKUP_MSG $2")
+
+destdir="$(dirname $2)"
+
+if [ ! -d $destdir ]
+then
+    echo "Making directory"
+    mkdir -p $destdir
+fi
 
 # Link new file
-ln -s build/$1 $2
+echo "Linking file.. $1 to $2"
+ln -rs build/$1 $2
