@@ -70,3 +70,4 @@ done
 
 ./linker.sh Xresources ~/.Xresources /usr/lib/Xorg
 ./linker.sh termite ~/.config/termite/config /usr/bin/termite
+./linker.sh i3  ~/.i3/config  /usr/bin/i3
