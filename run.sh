@@ -16,7 +16,7 @@ fi
 
 FLAGS="arch gen $ID"
 
-echo "Active Flags: $FLAGS"
+printf "Active Flags: $FLAGS\n\n"
 
 dir-files() {
     file="$1/$1"
@@ -35,6 +35,10 @@ dir-files() {
     done
 }
 
+substitute() {
+    envsubst "$(printenv | sed -e 's/=.*//' -e 's/^/\$/g')"
+}
+
 concat() {
     if [ -e "$1/comment" ]
     then
@@ -51,7 +55,8 @@ concat() {
         mv $target "$target.$(date -Ihours).bak"
     fi
 
-    cat $WARNING_FILE $(dir-files "$1") | envsubst > $target
+    cat $WARNING_FILE $(dir-files "$1") | substitute > $target
+
 }
 
 ############################## Prepare ##################
@@ -63,6 +68,8 @@ do
     echo "Build configuration for $dir"
     concat $dir
 done
+
+echo ""
 
 
 
