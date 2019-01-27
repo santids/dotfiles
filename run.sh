@@ -14,7 +14,7 @@ then
     source $OS_RELEASE
 fi
 
-FLAGS="arch gen $ID"
+FLAGS="$ID"
 
 printf "Active Flags: $FLAGS\n\n"
 

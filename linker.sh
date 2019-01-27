@@ -64,5 +64,5 @@ then
 fi
 
 # Link new file
-echo "Linking file.. build/$1 to $2"
-ln -s  $2
+echo "Linking file.. $target to $2"
+ln -s  $target $2
