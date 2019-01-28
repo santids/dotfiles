@@ -393,6 +393,7 @@ libid3tag 0.15.1b-9
 libidn 1.35-1
 libidn2 2.1.0-1
 libiec61883 1.2.0-5
+libieee1284 0.2.11-7
 libimobiledevice 1.2.0+87+g92c5462-1
 libindicator-gtk2 12.10.1-8
 libinput 1.12.5-1
@@ -797,6 +798,7 @@ run-parts 4.8.6-1
 rxvt-unicode 9.22-7
 rxvt-unicode-terminfo 9.22-7
 s-nail 14.9.11-2
+sane 1.0.27-2
 sbc 1.4-1
 sbxkb 0.7.6-3
 screenfetch 3.8.0.r107.g522c9c0-1
