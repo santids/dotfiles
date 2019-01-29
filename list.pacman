@@ -704,6 +704,7 @@ perl-xml-namespacesupport 1.12-3
 perl-xml-sax 1.00-1
 perl-xml-sax-base 1.09-3
 php 7.3.1-2
+physfs 3.0.1-1
 pinentry 1.1.0-4
 pixman 0.36.0-1
 pkcs11-helper 1.25.1-1
@@ -802,6 +803,7 @@ qpdf 8.2.1-1
 qt5-base 5.12.0-3.0
 qt5-declarative 5.12.0-1
 qt5-location 5.12.0-1
+qt5-script 5.12.0-1
 qt5-styleplugins 5.0.0.20170311-9
 qt5-svg 5.12.0-1
 qt5-webchannel 5.12.0-1
@@ -912,6 +914,7 @@ vulkan-icd-loader 1.1.96+3009+32d33e965-1
 vulkan-intel 18.3.2-0
 vulkan-radeon 18.3.2-0
 w3m 0.5.3.git20180125-1
+warzone2100 3.2.3-2
 wavpack 5.1.0-2
 wayland 1.16.0-1
 wayland-protocols 1.17-1
