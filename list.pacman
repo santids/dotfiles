@@ -845,6 +845,7 @@ re2 20190101-1
 readline 8.0.0-1
 reiserfsprogs 3.6.27-2
 rest 0.8.1-1
+rofi 1.5.2-1
 rpcbind 1.2.5-2
 rsync 3.1.3-1
 rtmpdump 1:2.4.r96.fa8646d-4
