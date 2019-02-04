@@ -752,6 +752,7 @@ pptpclient 1.10.0-1
 procps-ng 3.3.15-1.2
 psmisc 23.2-1
 ptex 2.3.0-1
+py3status 3.15-2
 pygobject-devel 3.30.4-1
 pygobject2-devel 2.28.7-2
 pygtk 2.24.0-8
