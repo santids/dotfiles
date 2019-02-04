@@ -52,6 +52,7 @@ brandr 0.2-3
 brotli 1.0.7-1
 btrfs-progs 4.19.1-1
 bzip2 1.0.6-8
+c-ares 1.15.0-1
 ca-certificates 20181109-1
 ca-certificates-mozilla 3.41-1
 ca-certificates-utils 20181109-1
@@ -68,6 +69,7 @@ cifs-utils 6.8-2
 ckbcomp 1.175-1
 clipit 1:1.4.3-2
 cmatrix 1.2-1
+code 1.30.2-1
 colord 1.4.3-2
 compton 4.0-1
 confuse 3.2.2-1
@@ -110,6 +112,7 @@ e2fsprogs 1.44.5-1
 ecryptfs-utils 111-3
 efibootmgr 16-1
 efivar 35-1
+electron2 2.0.16-1
 enchant 2.2.3-2
 epdfview 0.1.8-10
 ethtool 1:4.19-1
@@ -234,6 +237,7 @@ highlight 3.48-1
 hplip 1:3.18.12-1
 hspell 1.4-1
 htop 2.2.0-2
+http-parser 2.9.0-1
 hunspell 1.7.0-2
 hwids 20180917-1
 hwinfo 21.58-1
@@ -856,6 +860,7 @@ re2 20190101-1
 readline 8.0.0-1
 reiserfsprogs 3.6.27-2
 rest 0.8.1-1
+ripgrep 0.10.0-2
 rofi 1.5.2-1
 rpcbind 1.2.5-2
 rsync 3.1.3-1
