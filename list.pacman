@@ -78,6 +78,7 @@ cracklib 2.9.6-3
 crda 4.14-1
 cronie 1.5.2-1
 cryptsetup 2.0.6-1
+ctags 1:r20181015+g45968eff-1
 cups 2.2.10-2
 cups-filters 1.21.6-1
 cups-pdf 3.0.1-4
