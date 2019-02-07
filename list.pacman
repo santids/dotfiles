@@ -273,11 +273,14 @@ iw 4.14-1
 jack 0.125.0-7
 jansson 2.12-1
 jasper 2.0.14-1
+java-environment-common 3-1
 java-runtime-common 3-1
 jbig2dec 0.15-1
+jdk-openjdk 11.0.1.u13-2
 jemalloc 1:5.1.0-1
 jfsutils 1.1.15-6
 jnettop 0.13.0-6
+jre-openjdk 11.0.1.u13-2
 jre-openjdk-headless 11.0.1.u13-2
 js52 52.9.0-2
 json-c 0.13.1-2
