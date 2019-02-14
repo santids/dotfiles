@@ -160,6 +160,8 @@ gcolor2 0.4-8
 gconf 3.2.6+11+g07808097-4
 gcr 3.28.1-1
 gd 2.2.5-1
+gdb 8.2.1-3
+gdb-common 8.2.1-3
 gdbm 1.18.1-2
 gdk-pixbuf2 2.38.0-1
 gegl 0.4.12+62+gd2302106e-1
@@ -225,6 +227,7 @@ gtkspell 2.0.16-7
 gts 0.7.6-5
 gufw 18.10.0-1
 guile 2.2.4-2
+guile2.0 2.0.14-3
 gupnp 1.0.3-1
 gupnp-igd 0.2.5-1
 gutenprint 5.3.1-2
