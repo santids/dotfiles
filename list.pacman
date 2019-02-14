@@ -22,6 +22,7 @@ archlinux-keyring 20190123-1
 argon2 20171227-3
 aribb24 1.0.3-2
 artwork-i3 20180516-1
+asciidoc 8.6.10-1
 aspell 0.60.7rc1-1
 aspell-en 2018.04.16-1
 aspell-es 1.11-7
@@ -110,9 +111,12 @@ dmidecode 3.2-1
 dmraid 1.0.0.rc16.3-11
 dnsmasq 2.80-2
 dnssec-anchors 20181003-1
+docbook-xml 4.5-8
+docbook-xsl 1.79.2-4
 dosfstools 4.1-2
 double-conversion 3.1.1-1
 downgrade 6.0.0-2
+doxygen 1.8.15-1
 dunst 1.3.2-2
 e2fsprogs 1.44.5-1
 ecryptfs-utils 111-3
@@ -999,6 +1003,7 @@ startup-notification 0.12-6
 subversion 1.11.1-1
 sudo 1.8.27-1
 suitesparse 5.4.0-1
+swig 3.0.12-2
 sysfsutils 2.1.0-10
 syslog-ng 3.19.1-1
 system-config-printer 1.5.11-4
@@ -1112,6 +1117,7 @@ xfce4-power-manager 1.6.1-1
 xfconf 4.12.1-5
 xfsprogs 4.19.0-2
 xkeyboard-config 2.25-1
+xmlto 0.0.28-3
 xorg-bdftopcf 1.1-1
 xorg-font-util 1.3.1-2
 xorg-font-utils 7.6-5
