@@ -734,6 +734,7 @@ nfsidmap 2.3.3-1
 ninja 1.8.2-1
 nitrogen 1.6.1-2
 nm-connection-editor 1.8.19dev+21+geebf7f95-1
+nodejs 11.8.0-1
 noto-fonts 20190111-1
 npth 1.6-1
 nspr 4.20-1
@@ -1149,6 +1150,7 @@ xz 5.2.4-1
 yajl 2.1.0-2
 yaml-cpp 0.6.2-1
 yaourt 1.9-2
+yarn 1.13.0-1
 yay 9.1.0-1.0
 zenity 3.30.0-1
 zeromq 4.3.1-1
