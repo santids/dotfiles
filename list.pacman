@@ -49,6 +49,7 @@ blosc 1.15.1-1
 blueman 2.0.7-1
 bluez 5.50-6
 bluez-libs 5.50-6
+bluez-utils 5.50-6
 boost-libs 1.69.0-1
 brandr 0.2-3
 brotli 1.0.7-1
