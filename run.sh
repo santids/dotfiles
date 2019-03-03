@@ -14,7 +14,7 @@ then
     source $OS_RELEASE
 fi
 
-FLAGS="$ID"
+FLAGS="$ID urxvt"
 
 printf "Active Flags: $FLAGS\n\n"
 
@@ -49,10 +49,11 @@ concat() {
     export COMMENT
 
     target="build/$1"
+    backup="build/backup/$1.$(date -Ihours).bak"
 
     if [ -f $target ]
     then
-        mv $target "$target.$(date -Ihours).bak"
+        mv $target $backup
     fi
 
     cat $WARNING_FILE $(dir-files "$1") | substitute > $target
@@ -62,6 +63,7 @@ concat() {
 ############################## Prepare ##################
 
 mkdir -p build
+mkdir -p build/backup
 
 for dir in $DIRECTORIES
 do
@@ -69,7 +71,7 @@ do
     concat $dir
 done
 
-echo ""
+echo
 
 
 
