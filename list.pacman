@@ -73,7 +73,7 @@ cblas 3.8.0-2
 cdparanoia 10.2-7
 celt 0.11.3-3
 chromaprint 1.4.3-2
-chromium 72.0.3626.119-1
+chromium 72.0.3626.121-0
 cifs-utils 6.8-2
 ckbcomp 1.175-1
 clipit 1:1.4.3-2
@@ -999,6 +999,7 @@ qutebrowser 1.5.2-4
 ranger 1.9.2-1
 re2 20190101-1
 readline 8.0.0-1
+redshift 1.12-2
 reiserfsprogs 3.6.27-2
 remind 3.1.15-3
 rest 0.8.1-1
