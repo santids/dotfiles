@@ -907,6 +907,7 @@ python-cachecontrol 0.12.5-4
 python-cairo 1.18.0-1
 python-chardet 3.0.4-2
 python-colorama 0.4.1-1
+python-cycler 0.10.0-3
 python-dateutil 2.8.0-1
 python-dbus 1.2.8-2
 python-dbus-common 1.2.8-2
@@ -926,8 +927,10 @@ python-jinja 2.10-2
 python-jsonschema 2.6.0-3
 python-jupyter_client 5.2.4-1
 python-jupyter_core 4.4.0-4
+python-kiwisolver 1.0.1-2
 python-lockfile 0.12.2-4
 python-markupsafe 1.1.0-1
+python-matplotlib 3.0.2-1
 python-mistune 0.8.4-1
 python-more-itertools 4.3.0-1
 python-msgpack 0.6.1-1
@@ -964,6 +967,8 @@ python-qtpy 1.6.0-1
 python-reportlab 3.5.13-1
 python-requests 2.21.0-1
 python-retrying 1.3.3-4
+python-scipy 1.2.1-1
+python-seaborn 0.9.0-3
 python-send2trash 1.5.0-2
 python-setproctitle 1.1.10-3
 python-setuptools 1:40.8.0-1
