@@ -77,6 +77,7 @@ chromium 72.0.3626.121-0
 cifs-utils 6.8-2
 ckbcomp 1.175-1
 clipit 1:1.4.3-2
+cloc 1.80-1
 clucene 2.3.3.4-10
 cmake 3.13.4-1
 cmatrix 1.2-1
@@ -871,6 +872,7 @@ pcre 8.42-2
 pcre2 10.32-2
 pcsclite 1.8.24-1
 perl 5.28.1-1
+perl-algorithm-diff 1.1903-4
 perl-clone 0.41-1
 perl-dbi 1.642-1
 perl-error 0.17027-1
@@ -881,6 +883,8 @@ perl-file-which 1.23-1
 perl-image-exiftool 11.11-1
 perl-ipc-system-simple 1.25-4
 perl-mailtools 2.20-2
+perl-parallel-forkmanager 1.20-1
+perl-regexp-common 2017060201-1
 perl-timedate 2.30-5
 perl-uri 1.76-1
 perl-xml-libxml 2.0134-1
