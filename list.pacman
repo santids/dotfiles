@@ -539,6 +539,7 @@ libimagequant 2.12.2-1
 libimobiledevice 1.2.0+87+g92c5462-1
 libindicator-gtk2 12.10.1-8
 libinput 1.12.6-1
+libinput-gestures 2.41-1
 libisofs 1.5.0-1
 libixion 0.14.1-2
 libjpeg-turbo 2.0.2-1
@@ -1249,6 +1250,7 @@ which 2.21-3
 wildmidi 0.4.3-1
 wireless-regdb 2018.10.24-2
 wireless_tools 30.pre9-2
+wmctrl 1.07-5
 wmutils 1:1.4-1
 woff2 1.0.2-1
 wpa_supplicant 2:2.6-2
