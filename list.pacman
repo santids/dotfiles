@@ -452,6 +452,7 @@ libaec 1.0.2-1
 libaio 0.3.111-2
 libappindicator-gtk2 12.10.0-13
 libarchive 3.3.3-1
+libasr 1.0.2-3
 libass 0.14.0-1
 libassuan 2.5.3-1
 libasyncns 0.8+3+g68cd5af-2
@@ -850,6 +851,7 @@ openjpeg2 2.3.0-3
 openobex 1.7.2-3
 openresolv 3.9.0-2
 openshadinglanguage 1.9.10-4
+opensmtpd 6.0.3p1-2
 openssh 7.9p1-1.1
 openssl 1.1.1.b-1
 openssl-1.0 1.0.2.r-1
