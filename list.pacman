@@ -1227,6 +1227,7 @@ usbutils 010-1
 util-linux 2.33.1-2
 v4l-utils 1.16.3-1
 v86d 0.1.10-5.1
+valgrind 3.14.0-1
 vertex-maia-themes 20180519-4
 vi 1:070224-3
 vibrancy-icons-teal 2.7-1
