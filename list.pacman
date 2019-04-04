@@ -435,7 +435,6 @@ lib32-libxxf86vm 1.1.4-2
 lib32-llvm-libs 7.0.1-1
 lib32-lm_sensors 3.5.0-2
 lib32-mesa 19.0.1+really+18.3.5-1
-lib32-mesa-demos 8.4.0-1
 lib32-mesa-vdpau 19.0.1+really+18.3.5-1
 lib32-ncurses 6.1-4
 lib32-readline 8.0.0-1
