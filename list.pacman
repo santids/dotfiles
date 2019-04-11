@@ -1010,6 +1010,7 @@ python-pypeg2 2.15.2-3
 python-pyqt5 5.12.1-1
 python-pyqtwebengine 5.12.1-1
 python-pytest 4.4.0-1
+python-pytest-flake8 1.0.4-1
 python-pytoml 0.1.20-1
 python-pytz 2018.9-1
 python-pyzmq 18.0.1-1
