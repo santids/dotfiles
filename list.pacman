@@ -981,6 +981,7 @@ python-mccabe 0.6.1-2
 python-mistune 0.8.4-1
 python-more-itertools 4.3.0-1
 python-msgpack 0.6.1-1
+python-networkx 2.2-1
 python-npyscreen 4.10.5-2
 python-numpy 1.16.2-1
 python-packaging 19.0-1
