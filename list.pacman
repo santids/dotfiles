@@ -964,6 +964,7 @@ python-distro 1.4.0-1
 python-entrypoints 0.3-1
 python-gobject 3.32.0-1
 python-html5lib 1.0.1-3
+python-httplib2 0.12.1-1
 python-idna 2.8-1
 python-iniconfig 1.0.0-2
 python-ipykernel 4.9.0-1
