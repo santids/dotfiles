@@ -122,6 +122,7 @@ dnssec-anchors 20181003-1
 dosfstools 4.1-2
 double-conversion 3.1.4-1
 downgrade 6.2.1-1
+dropbox 71.4.108-1
 dunst 1.4.0-1
 e2fsprogs 1.45.0-1
 ecryptfs-utils 111-3
