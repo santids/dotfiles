@@ -819,6 +819,7 @@ mousepad 0.4.1-1
 mozilla-common 1.4-5
 mpfr 4.0.2-1
 mpg123 1.25.10-1
+mpv 1:0.29.1-6
 mtdev 1.1.5-2
 mutt 1.11.4-1
 mypaint-brushes 1.3.0-3
@@ -955,6 +956,7 @@ ppp 2.4.7-5
 pptpclient 1.10.0-1
 prison 5.57.0-1
 procps-ng 3.3.15-1.2
+protobuf 3.7.0-1
 psmisc 23.2-1
 ptex 2.3.0-1
 pulseaudio 12.2-2
@@ -1149,6 +1151,7 @@ rpcbind 1.2.5-2
 rsync 3.1.3-1
 rtkit 0.12-1
 rtmpdump 1:2.4.r96.fa8646d-4
+rubberband 1.8.2-1
 ruby 2.6.3-1
 ruby-diff-lcs 1.3-3
 ruby-manpages 0.6.1-2
@@ -1269,6 +1272,7 @@ ttf-liberation 2.00.5-1
 ttf-opensans 1.101-1
 twolame 0.3.13-8
 tzdata 2019a-1
+uchardet 0.0.6-2
 udisks2 2.8.2-1
 ufw 0.36-1
 upower 0.99.10-1
@@ -1279,6 +1283,7 @@ util-linux 2.33.2-1
 v4l-utils 1.16.5-1
 v86d 0.1.10-5.1
 valgrind 3.14.0-1
+vamp-plugin-sdk 2.8.0-1
 vertex-maia-themes 20180519-4
 vi 1:070224-3
 vibrancy-icons-teal 2.7-1
