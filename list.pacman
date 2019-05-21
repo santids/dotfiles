@@ -174,6 +174,7 @@ gawk 4.2.1-2
 gc 7.6.8-1
 gcab 1.2-1
 gcc 8.3.0-1
+gcc-fortran 8.3.0-1
 gcc-libs 8.3.0-1
 gcolor2 0.4-8
 gconf 3.2.6+11+g07808097-4
@@ -853,6 +854,7 @@ nss 3.43-1
 nss-mdns 0.14.1-1
 ntfs-3g 2017.3.23-3
 ntp 4.2.8.p13-2
+numactl 2.0.12-1
 obexftp 0.24.2-4
 okular 19.04.0-1
 open-fuse-iso 1.1-1
