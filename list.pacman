@@ -1136,6 +1136,7 @@ qt5-webkit 5.212.0alpha2-28
 qt5-x11extras 5.12.3-1
 qt5-xmlpatterns 5.12.3-1
 qt5ct 0.38-1
+quazip 0.7.6-1
 qutebrowser 1.6.1-1
 ranger 1.9.2-1
 raptor 2.0.15-11
@@ -1254,6 +1255,7 @@ texlive-pictures 2018.50020-1
 texlive-pstricks 2018.49908-1
 texlive-publishers 2018.50030-1
 texlive-science 2018.50013-1
+texstudio 2.12.14-1
 thin-provisioning-tools 0.8.0-1
 threadweaver 5.57.0-1
 tinycdb 0.78-3
