@@ -1299,6 +1299,7 @@ vid.stab 1.1-2
 viewnior 1.7-2
 vim-runtime 8.1.1186-1
 virtualbox 6.0.8-2
+virtualbox-ext-oracle 6.0.8-1
 virtualbox-sdk 6.0.8-2
 vlc 3.0.6-11
 volume_key 0.3.11-2
