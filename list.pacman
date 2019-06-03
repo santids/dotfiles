@@ -734,7 +734,7 @@ lightdm-settings 1.2.5-1
 lightdm-slick-greeter 1.2.4-1
 links 2.19-1
 linux-api-headers 5.0.7-1
-linux-firmware 20190514.711d329-1
+linux-firmware 20190514.711d329-1.1
 linux419 4.19.45-1
 linux419-virtualbox-host-modules 6.0.8-2
 lirc 1:0.10.1-2
