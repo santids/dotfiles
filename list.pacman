@@ -1420,6 +1420,7 @@ zlib 1:1.2.11-3
 zsh 5.7.1-1
 zsh-doc 5.7.1-1
 zsh-lovers 0.9.1-2
+zsh-syntax-highlighting 0.6.0-1
 zstd 1.4.0-1
 zvbi 0.2.35-3
 zziplib 0.13.69-1
