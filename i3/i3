@@ -5,7 +5,7 @@
 set $mod Mod4
 
 # set default desktop layout (default is tiling)
-# workspace_layout tabbed <stacking|tabbed>
+# workspace_layout tabbed # <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
 new_window pixel 1
@@ -30,21 +30,21 @@ floating_modifier $mod
 bindsym $mod+Return exec ${TERMINAL}
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+Shift+w kill
 
 # start program launcher
-bindsym $mod+d exec --no-startup-id dmenu_recency
+bindsym $mod+d exec --no-startup-id rofi -show combi -combi-modi window#drun#run -modi run#drun#window -show-icons
+bindsym $mod+Shift+d exec --no-startup-id rofi -show combi -combi-modi run#drun -modi run#drun#window -show-icons
 
 # launch categorized menu
-bindsym $mod+z exec --no-startup-id morc_menu
+# bindsym $mod+z exec --no-startup-id morc_menu
 
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
 ################################################################################################
 
 exec --no-startup-id volumeicon
-# bindsym $mod+Ctrl+m exec ${TERMINAL} -e 'alsamixer'
-# exec --no-startup-id eval $(gnome-keyring-daemon)
+exec --no-startup-id setxkbmap -option compose:caps
 #exec --no-startup-id pulseaudio
 #exec --no-startup-id pa-applet
 #bindsym $mod+Ctrl+m exec pavucontrol
@@ -52,12 +52,13 @@ exec --no-startup-id volumeicon
 ################################################################################################
 
 # Screen brightness controls
-# bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
-# bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
+bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
+bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
 
 # Start Applications
 bindsym $mod+F2 exec ${BROWSER}
 bindsym $mod+F3 exec pcmanfm
+bindsym $mod+F4 exec ${TERMINAL} -e 'exec htop'
 # bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec gksu pcmanfm
 bindsym $mod+F5 exec ${TERMINAL} -e 'mocp'
@@ -79,10 +80,12 @@ bindsym $mod+k focus up
 bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
+# bindsym $mod+Left focus left
+# bindsym $mod+Right focus right
+bindsym $mod+Left workspace prev
+bindsym $mod+Right workspace next
 bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+bindsym $mod+Down focus down
 
 # move focused window
 bindsym $mod+Shift+h move left
@@ -98,8 +101,12 @@ bindsym $mod+Shift+Right move right
 
 # workspace back and forth (with/without active container)
 # workspace_auto_back_and_forth yes
-bindsym $mod+Tab workspace back_and_forth
-bindsym $mod+Shift+Tab move container to workspace back_and_forth; workspace back_and_forth
+bindsym mod1+Tab workspace back_and_forth
+bindsym mod1+Shift+Tab move container to workspace back_and_forth; workspace back_and_forth
+
+bindsym $mod+mod1+Left move container to workspace prev; workspace prev
+bindsym $mod+mod1+Right move container to workspace next; workspace next
+
 
 # split orientation
 bindsym $mod+Shift+v split h;exec notify-send 'tile horizontally'
@@ -121,7 +128,8 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # move floating window to center
-bindsym $mod+c move absolute position center
+bindsym $mod+Ctrl+c move absolute position center
+bindsym $mod+c focus child
 
 # toggle sticky
 bindsym $mod+Shift+s sticky toggle
@@ -139,6 +147,8 @@ bindsym $mod+m scratchpad show
 #navigate workspaces next / previous
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
 
 # Workspace names
 # to display names or symbols instead of plain workspace numbers you can use
@@ -216,6 +226,7 @@ for_window [class="Skype"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
+for_window [class="seahorse"] floating enable
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -285,10 +296,18 @@ exec --no-startup-id clipit
 # exec_always --no-startup-id sbxkb
 exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
-exec --no-startup-id xautolock -time 10 -locker blurlock
+# exec --no-startup-id xautolock -time 10 -locker blurlock
 # exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
+exec --no-startup-id i3-battery-popup -n
+exec --no-startup-id redshift-gtk
+exec --no-startup-id libinput-gestures-setup start
+exec --no-startup-id postfix start
+exec --no-startup-id dropbox-cli start
 
+
+# bindsym $mod+Ctrl+m exec ${TERMINAL} -e 'alsamixer'
+# exec --no-startup-id eval $(gnome-keyring-daemon)
 # Color palette used for the ${TERMINAL} ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
 # https://i3wm.org/docs/userguide.html#xresources

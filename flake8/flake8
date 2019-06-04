@@ -1,0 +1,7 @@
+[flake8]
+ignore = E23,E22,W
+exclude =
+    .git,
+    __pycache__,
+    build,
+    dist

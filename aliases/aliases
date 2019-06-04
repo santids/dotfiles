@@ -1,0 +1,21 @@
+alias cmake-release='cmake -DCMAKE_BUILD_TYPE=Release'
+alias commit='git commit'
+alias connect-ext='nmcli device wifi connect Fibertel\ WiFi398_EXT password 0142046907'
+alias connect="nmcli device wifi connect Fibertel\ WiFi398 password 0142046907"
+alias copy='clipcopy'
+alias paste='clippaste'
+alias cpr='cp -r'
+# alias day-stats="arbtt-stats --filter '\$sampleage < 24:00' "
+alias del='trash-put'
+alias diff="diff --color"
+alias mk='make'
+alias open='xdg-open'
+alias push='git push'
+alias safe-python='timeout2 -m 1000000 python'
+alias vims='vim -S Session.vim'
+alias vi=vim
+alias cpr='cp -r'
+alias ls-dmenu='ls | rofi -dmenu'
+alias update='sudo pacman -Syu'
+alias pmg="pm go"
+alias pma="pm add"
