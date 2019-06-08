@@ -76,7 +76,7 @@ cblas 3.8.0-2
 cdparanoia 10.2-7
 celt 0.11.3-3
 chromaprint 1.4.3-2
-chromium 74.0.3729.169-1
+chromium 75.0.3770.80-0
 cifs-utils 6.8-2
 ckbcomp 1.175-1
 clipit 1:1.4.3-2
@@ -129,7 +129,7 @@ double-conversion 3.1.4-1
 downgrade 6.2.1-1
 dropbox 71.4.108-1
 dropbox-cli 2019.02.14-1
-dunst 1.4.0-1
+dunst 1.4.0-2
 e2fsprogs 1.45.1-1
 ecryptfs-utils 111-3
 efibootmgr 16-1
