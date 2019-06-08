@@ -980,6 +980,7 @@ pygtk 2.24.0-8
 pyqt5-common 5.12.2-1
 pyqtwebengine-common 5.12.1-1
 python 3.7.3-1
+python-ansi2html 1.5.2-1
 python-apipkg 1.5-1
 python-appdirs 1.4.3-2
 python-asn1crypto 0.24.0-2
