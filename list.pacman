@@ -75,7 +75,7 @@ cblas 3.8.0-2
 cdparanoia 10.2-7
 celt 0.11.3-3
 chromaprint 1.4.3-2
-chromium 75.0.3770.80-1
+chromium 75.0.3770.90-0
 cifs-utils 6.8-2
 ckbcomp 1.175-1
 clipit 1:1.4.3-2
@@ -915,6 +915,7 @@ php 7.3.6-1
 physfs 3.0.2-1
 pimcommon 19.04.2-1
 pinentry 1.1.0-4
+pipewire 0.2.6-1
 pixman 0.38.4-1
 pkcs11-helper 1.25.1-1
 pkgconf 1.6.1-1
