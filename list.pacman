@@ -335,6 +335,8 @@ karchive 5.59.0-1
 kauth 5.59.0-1
 kbd 2.0.4-2
 kbookmarks 5.59.0-1
+kcachegrind 19.04.2-1
+kcachegrind-common 19.04.2-1
 kcalcore 19.04.2-1
 kcalutils 19.04.2-1
 kcmutils 5.59.0-1
