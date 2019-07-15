@@ -413,6 +413,7 @@ lapack 3.8.0-2
 lcms2 2.9-1
 ldb 1:1.5.4-2
 ldns 1.7.0-4
+leela-zero 0.17-1
 lensfun 0.3.2-7
 less 551-1
 lib32-alsa-lib 1.1.9-1
