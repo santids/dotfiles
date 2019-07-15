@@ -78,6 +78,7 @@ chromaprint 1.4.3-2
 chromium 75.0.3770.100-0
 cifs-utils 6.8-2
 ckbcomp 1.175-1
+clinfo 2.2.18.04.06-1
 clipit 1:1.4.3-2
 cloc 1.82-1
 clucene 2.3.3.4-10
@@ -836,6 +837,7 @@ ntfs-3g 2017.3.23-3
 ntp 4.2.8.p13-2
 numactl 2.0.12-2
 obexftp 0.24.2-4
+ocl-icd 2.2.12-3
 okular 19.04.2-1
 open-fuse-iso 1.1-1
 openal 1.19.1-2
