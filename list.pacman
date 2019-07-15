@@ -734,6 +734,7 @@ linux-firmware 20190514.711d329-1.1
 linux419 4.19.56-1
 linux419-virtualbox-host-modules 6.0.8-11
 lirc 1:0.10.1-2
+lizzie 0.6-2
 llvm-libs 8.0.0-2
 lm_sensors 3.5.0-1
 lmdb 0.9.23-1
