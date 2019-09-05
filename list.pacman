@@ -49,6 +49,7 @@ babl 0.1.66-1
 bash 5.0.007-1
 bashrc-manjaro 5.0.007-1
 bc 1.07.1-3
+bcg729 1.0.4-4
 binutils 2.32-2
 bison 3.4-1
 blas 3.8.0-2
@@ -573,6 +574,7 @@ liblrdf 0.6.1-3
 libmad 0.15.1b-8
 libmagick6 6.9.10.59-1
 libmatroska 1.5.2-1
+libmaxminddb 1.3.2-1
 libmbim 1.18.2-1
 libmediainfo 19.04-1
 libmicrohttpd 0.9.66-1
@@ -1367,6 +1369,8 @@ which 2.21-3
 wildmidi 0.4.3-1
 wireless-regdb 2019.03.01-1
 wireless_tools 30.pre9-2
+wireshark-cli 3.0.3-1
+wireshark-qt 3.0.3-1
 wmctrl 1.07-5
 wmutils 1:1.4-1
 woff2 1.0.2-1
