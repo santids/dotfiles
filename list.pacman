@@ -1083,6 +1083,7 @@ python-pexpect 4.7.0-1
 python-pickleshare 0.7.5-1
 python-pillow-simd 1:5.3.0.post1-1
 python-pip 19.0.3-1
+python-plotly 4.1.0-1
 python-pluggy 0.12.0-1
 python-ply 3.11-2
 python-progress 1.5-1
