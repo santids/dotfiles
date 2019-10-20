@@ -1044,6 +1044,7 @@ python-decorator 4.4.0-1
 python-defusedxml 0.6.0-1
 python-distlib 0.2.9-1
 python-distro 1.4.0-1
+python-dnspython 1.16.0-1
 python-docker 4.1.0-1
 python-docker-pycreds 0.4.0-3
 python-dockerpty 0.4.1-4
