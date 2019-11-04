@@ -756,6 +756,7 @@ linux419 4.19.80-1
 linux419-virtualbox-host-modules 6.0.14-2
 lirc 1:0.10.1-2
 lizzie 0.6-2
+lldb 9.0.0-1
 llvm-libs 9.0.0-3
 lm_sensors 3.6.0-1
 lmdb 0.9.24-1
