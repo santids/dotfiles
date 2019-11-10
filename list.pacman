@@ -855,6 +855,7 @@ ndctl 67-1
 neon 0.30.2-3
 nerd-fonts-terminus 2.0.0-2
 net-snmp 5.8-4
+net-tools 1.60.20181103git-1
 netcdf 4.7.2-1
 netctl 1.20-1
 nethack 3.6.2-1
