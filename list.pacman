@@ -1157,6 +1157,7 @@ python-w3lib 1.21.0-1
 python-wcwidth 0.1.7-3
 python-webencodings 0.5.1-2
 python-websocket-client 0.56.0-1
+python-websockets 8.0.2-1
 python-xapp 1.6.0-1
 python-xdg 0.26-2
 python-xlib 0.25-1
