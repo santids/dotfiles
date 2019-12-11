@@ -254,6 +254,7 @@ gtk-engine-murrine 0.98.2-3
 gtk-engines 2.21.0-4
 gtk-update-icon-cache 1:3.24.12+32+g39e28ab933-1
 gtk2 2.24.32-1
+gtk3 1:3.24.13-1
 gtkmm 1:2.24.5-3
 gtkmm3 3.24.2-1
 gtksourceview-pkgbuild 4-2
