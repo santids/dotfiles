@@ -1292,6 +1292,7 @@ vtk 8.2.0-9
 vulkan-icd-loader 1.1.130-1
 vulkan-intel 19.3.2-2
 vulkan-radeon 19.3.2-2
+wabt 1.0.12-1
 wavemon 0.9.1-1
 wavpack 5.2.0-1
 wayland 1.17.0-1
