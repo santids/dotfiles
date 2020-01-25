@@ -19,3 +19,5 @@ alias ls-dmenu='ls | rofi -dmenu'
 alias update='sudo pacman -Syu'
 alias pmg="pm go"
 alias pma="pm add"
+alias gitfp='git push -u origin $(git symbolic-ref --short -q HEAD)'
+
