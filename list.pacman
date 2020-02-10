@@ -1053,6 +1053,7 @@ python-pyparsing 2.4.6-1
 python-pyproj 2.4.0-3
 python-pyqt5 5.14.1-2
 python-pyqt5-sip 12.7.1-1
+python-pyqtgraph 0.10.0-8
 python-pyrsistent 0.15.7-1
 python-pysmbc 1.0.18-1
 python-pytest 5.3.5-1
