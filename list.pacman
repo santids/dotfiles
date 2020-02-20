@@ -980,6 +980,7 @@ python-bleach 3.1.0-3
 python-cachecontrol 0.12.6-1
 python-cached-property 1.5.1-4
 python-cairo 1.19.0-1
+python-certifi 2019.11.28-1
 python-cffi 1.13.2-2
 python-chardet 3.0.4-4
 python-colorama 0.4.3-1
@@ -1033,10 +1034,12 @@ python-paramiko 2.7.1-1
 python-parso 0.6.1-1
 python-patsy 0.5.1-4
 python-pep517 0.6.0-3
+python-pew 1.2.0-4
 python-pexpect 4.8.0-1
 python-pickleshare 0.7.5-3
 python-pillow-simd 1:6.0.0.post0-1
 python-pip 19.3-1
+python-pipenv 2018.11.26-3
 python-plotly 4.1.0-1
 python-pluggy 0.13.1-1
 python-ply 3.11-4
@@ -1086,6 +1089,8 @@ python-tornado 6.0.3-3
 python-traitlets 4.3.3-3
 python-ueberzug 18.1.5-2
 python-urllib3 1.25.8-1
+python-virtualenv 16.1.0-3
+python-virtualenv-clone 0.5.3-3
 python-wcwidth 0.1.8-1
 python-webencodings 0.5.1-4
 python-websocket-client 0.57.0-1
