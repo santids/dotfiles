@@ -79,6 +79,6 @@ echo
 
 ./linker.sh Xresources ~/.Xresources /usr/lib/Xorg
 ./linker.sh termite ~/.config/termite/config /usr/bin/termite
-./linker.sh i3  ~/.i3/config  /usr/bin/i3
+./linker.sh i3  ~/.config/i3/config  /usr/bin/i3
 ./linker.sh flake8 ~/.config/flake8 /usr/bin/flake8
 ./linker.sh aliases ~/.aliases /bin/bash
