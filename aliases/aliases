@@ -20,4 +20,8 @@ alias update='sudo pacman -Syu'
 alias pmg="pm go"
 alias pma="pm add"
 alias gitfp='git push -u origin $(git symbolic-ref --short -q HEAD)'
-
+alias ysr='yarn start --reset-cache'
+alias edesa='cd ~/widergy/UtilityGO-Office-Mobile-Revamp'
+alias edenor='cd ~/widergy/edenor-digital'
+alias ugo='cd ~/widergy/utility-go'
+alias mobile='cd ~/widergy/mobile-ui'
